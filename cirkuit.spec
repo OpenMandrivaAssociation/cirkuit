@@ -8,6 +8,10 @@ Group: 		Graphical desktop/KDE
 Url: 		http://wwwu.uni-klu.ac.at/magostin/cirkuit.html
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdelibs4-devel
+Requires:	texlive
+Requires:	m4
+Requires:	ps2eps
+Requires:	ghostscript
 
 %description 
 Cirkuit is a KDE4 GUI for the Circuit macros by Dwight Aplevich, which
@@ -18,6 +22,7 @@ or PSTricks format.
 
 %files
 %defattr(-,root,root)
+%doc README Changelog
 %_kde_bindir/*
 %_kde_appsdir/cirkuit
 %_kde_applicationsdir/*.desktop
