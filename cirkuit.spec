@@ -8,6 +8,7 @@ Group: 		Graphical desktop/KDE
 Url: 		http://wwwu.uni-klu.ac.at/magostin/cirkuit.html
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdelibs4-devel
+BuildRequires:	libpoppler-qt4-devel
 Requires:	texlive
 Requires:	m4
 Requires:	ps2eps
@@ -25,6 +26,8 @@ or PSTricks format.
 %doc README Changelog
 %_kde_bindir/*
 %_kde_appsdir/cirkuit
+%_kde_appsdir/katepart/syntax/m4cm.xml
+%_kde_datadir/config.kcfg/cirkuit.kcfg
 %_kde_applicationsdir/*.desktop
 %_kde_datadir/mime/packages/*.xml
 %_kde_iconsdir/*/*/*/*
