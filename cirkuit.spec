@@ -1,6 +1,6 @@
 Summary:	Builds circuit images
 Name:		cirkuit
-Version: 	0.1.2
+Version: 	0.2
 Release: 	%mkrel 1
 Source0: 	http://wwwu.uni-klu.ac.at/magostin/src/%name-%version.tar.gz
 License: 	GPLv2+
