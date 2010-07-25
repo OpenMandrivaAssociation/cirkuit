@@ -1,7 +1,7 @@
 Summary:	Builds circuit images
 Name:		cirkuit
 Version: 	0.2.2
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 Source0: 	http://wwwu.uni-klu.ac.at/magostin/src/%name-%version.tar.gz
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
@@ -9,7 +9,7 @@ Url: 		http://wwwu.uni-klu.ac.at/magostin/cirkuit.html
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdelibs4-devel
 BuildRequires:	libpoppler-qt4-devel
-Requires:	texlive
+Requires:	tetex
 Requires:	m4
 Requires:	ps2eps
 Requires:	ghostscript
