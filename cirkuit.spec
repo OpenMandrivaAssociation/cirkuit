@@ -1,7 +1,7 @@
 Summary:	Builds circuit images
 Name:		cirkuit
-Version: 	0.2.2
-Release: 	%mkrel 2
+Version: 	0.3
+Release: 	%mkrel 1
 Source0: 	http://wwwu.uni-klu.ac.at/magostin/src/%name-%version.tar.gz
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
@@ -11,7 +11,6 @@ BuildRequires: 	kdelibs4-devel
 BuildRequires:	libpoppler-qt4-devel
 Requires:	tetex
 Requires:	m4
-Requires:	ps2eps
 Requires:	ghostscript
 
 %description 
@@ -26,7 +25,7 @@ or PSTricks format.
 %doc README Changelog
 %_kde_bindir/*
 %_kde_appsdir/cirkuit
-%_kde_appsdir/katepart/syntax/m4cm.xml
+%_kde_appsdir/katepart/syntax/*.xml
 %_kde_datadir/config.kcfg/cirkuit.kcfg
 %_kde_applicationsdir/*.desktop
 %_kde_datadir/mime/packages/*.xml
