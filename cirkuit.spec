@@ -12,6 +12,7 @@ BuildRequires:	libpoppler-qt4-devel
 Requires:	tetex
 Requires:	m4
 Requires:	ghostscript
+Requires:	pdf2svg
 
 %description 
 Cirkuit is a KDE4 GUI for the Circuit macros by Dwight Aplevich, which
