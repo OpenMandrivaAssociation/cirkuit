@@ -1,7 +1,7 @@
 Name:		cirkuit
 Summary:	KDE interface for LaTeX graphic tools
 Version:	0.4.3
-Release:	1
+Release:	2
 Group:		Sciences/Physics
 License:	GPLv2
 URL:		http://wwwu.uni-klu.ac.at/magostin/cirkuit.html
