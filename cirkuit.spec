@@ -6,6 +6,7 @@ Group:		Sciences/Physics
 License:	GPLv2
 URL:		https://wwwu.uni-klu.ac.at/magostin/cirkuit.html
 Source0:	http://wwwu.uni-klu.ac.at/magostin/src/%{name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(poppler-qt4)
 Requires:	ghostscript
